@@ -1,0 +1,102 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+.checked{
+  color: orange;
+}
+
+.image{
+  width: 20vw;
+  border-radius: 20px;
+}
+
+.image-div{
+  float: left;
+  margin: 10px;
+}
+
+header{
+      background-color: rgba(0,0,0,0.5);
+      justify-content: space-between;
+      height: 65px;
+      padding: 0 24px;
+      display: flex;
+      align-items: center;
+
+
+}
+
+.navbtn{
+  float: left;
+  margin: 20px 30px 30px 50px;
+  font-size: 20px;
+}
+
+.searcbar{
+  float: left;
+}
+
+.searchbar--input {
+   margin: 20px 30px 20px 550px;
+   padding: 5px 200px 5px 5px;
+   border-radius: 15px;
+   background-color: rgb(65, 66, 140, 0.6);
+   border: none;
+   color: white;
+ }
+
+::placeholder{
+  color: white;
+}
+
+ul{
+  list-style-type: none;
+}
+
+.box-div{
+  position: static;
+  float: left;
+  margin: 20px 0px 0px 0px;
+  width: 100vw;
+  margin-left: calc(49% - 50vw);
+}
+
+.box-img{
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  position: absolute;
+  filter: blur(0.3rem);
+  opacity: 0.6;
+}
+
+.trailer{
+  width: 58vw;
+  height: 60vh;
+  margin: 20px 0px 0px 0px;
+  border-radius: 20px;
+}
+
+body{
+  background-color: black;
+}
+
+.logo-div{
+  margin: 0px 0px 0px 40vw;
+  position: absolute;
+}
+
+.logo{
+  width: 10vw;
+}
+
+.title{
+  
+}
